@@ -1,0 +1,233 @@
+<style>
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #eeeeee
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+  
+}
+#header {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  align-items: center;
+  padding: 15px 20px;
+  position: fixed;
+  left: 0;
+  right:0 ;
+  top: 0;
+  background-color: #eeeeee;
+}
+.logo {
+  display: flex;
+}
+#header-img {
+  width: 130px;
+  height: 110px;
+  border-radius: 50%;
+}
+#nav-bar{
+  display: flex;
+  flex-grow: 1;
+  min-height: 80px;
+  align-items: center;
+}
+#nav-bar ul li {
+  display: block;
+  margin-bottom: 20px;
+}
+#nav-bar ul li a {
+  color: #000000;
+  font-size: 20px;
+  }
+
+.form {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 400px;
+  }
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 430px;
+  width: 100%;
+  
+}
+
+.form form input {
+  display: block;
+}
+
+#email {
+  margin-bottom: 20px;
+  max-width: 300px;
+  background-color: #ffffff;
+  padding: 5px;
+  width: 100%;
+}
+
+#submit {
+  margin-bottom: 20px;
+  background-color: #f1c40f;
+  padding: 4px 20px;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+}
+
+#Features {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color:#eeeeee;
+  border-style: solid;
+  border-width: medium;
+  padding: 0 20px;
+}
+.card {
+  display: flex;
+  align-items: center;
+   }
+
+.icon {
+  max-width: 100px;
+  width: 100%;
+  color: #ff8c00;
+}
+
+#How-it-works {
+  max-width: 100%;
+  margin: 50px auto;
+}
+#Pricing {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.card1 {
+  margin: 0 auto;
+  margin-bottom: 15px;
+  border: 3px solid #000;
+  max-width: 300px;
+  width: 100%;
+  border-radius: 4px;
+  text-align: center;
+}
+.card1 h2 {
+  background-color: #dddddd;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 15px;
+}
+.card1 strong {
+  font-size: 24px;
+}
+
+.card1 button {
+  border: 0;
+  margin: 15px 0;
+  background-color: #f1c40f;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 24px;
+}
+footer {
+  padding: 20px;
+  margin-top: 30px;
+  text-align: center;
+  background-color: #ddd;
+}
+footer > ul {
+  padding: 0;
+}
+
+footer > ul li {
+  display: inline;
+}
+
+footer > ul li {
+  margin-right: 10px;
+}
+
+footer > ul li a {
+  color: #000;
+}
+/* ======== Media query ========*/
+@media (min-width: 600px) {
+  #header {
+    flex-direction: row;
+    left: 5%;
+    right: 5%;
+  }
+
+  #nav-bar ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  #nav-bar ul li {
+    display: inline;
+    margin-right: 50px;
+  }
+
+  #nav-bar ul li:last-child {
+    margin-right: 0;
+  }
+}
+
+
+</style>
+
+<div id="main">
+  <h1 id="title">Iron Maiden - metal band</h1>
+  <p id="p">English heavy metal band formed in 1975</p>
+  <div id="img-div">
+    <img id="image" src="https://townsquare.media/site/366/files/2014/09/Iron-Maiden.jpg?w=980&q=75" alt="picture of Iron maiden-band members">
+    <figcaption id="img-caption">On their tour for the release of their new album</figcaption>
+  </div>
+  <div id="tribute-info">
+    <h3>Here is a time line of Iron Maiden history</h3>
+    <ul>
+      <li><strong>Early years (1975–1978)</strong> - Iron Maiden were formed on Christmas Day, 25 December 1975 by bassist Steve Harris shortly after he left his previous group, Smiler.</li>
+
+      <li><strong>Record contract and early releases (1978–1981)</strong> - On New Year's Eve 1978, Iron Maiden recorded a demo, consisting of four songs, at Spaceward Studios in Cambridge.</li>
+      <li><strong>Success (1981–1985)</strong> - By 1981, Paul Di'Anno was demonstrating increasingly self-destructive behaviour, particularly due to his drug usage, about which Di'Anno comments, "it wasn't just that I was snorting a bit of coke, though; </li>
+      <li><strong>Early years (1975–1978)</strong> - Iron Maiden were formed on Christmas Day, 25 December 1975 by bassist Steve Harris shortly after he left his previous group, Smiler.</li>
+      <li><strong>Experimentation (1986–1989)</strong> - Returning from their time off, the band adopted a different style for their 1986 studio album, Somewhere in Time.</li>
+      <li><strong>Upheaval (1989–1994)</strong> - During another break in 1989, guitarist Adrian Smith released a solo album with his band ASAP, entitled Silver and Gold. Vocalist Bruce Dickinson began work on a solo album with former Gillan guitarist Janick Gers, releasing Tattooed Millionaire in 1990,followed by a tour.</li>
+      <li><strong>Blaze Bayley era, The X Factor and Virtual XI (1994–1999)</strong> - Iron Maiden were formed on Christmas Day, 25 December 1975 by bassist Steve Harris shortly after he left his previous group, Smiler.</li>
+      <li><strong>Return of Dickinson and Smith, Brave New World (1999–2002)</strong> - While the group were considering a replacement for Bayley, Rod Smallwood convinced Steve Harris to invite Bruce Dickinson back into the band.</li>
+      <li><strong>Dance of Death and A Matter of Life and Death (2003–2007)</strong> - In June 2003 Iron Maiden released double DVD promo-videos compilation entitled Visions of the Beast which went multi-platinum worldwide.</li>
+      <li><strong>Somewhere Back in Time World Tour and Flight 666 (2007–2009)</strong> - On 5 September 2007, the band announced their Somewhere Back in Time World Tour, which tied in with the DVD release of their Live After Death album.</li>
+      <li><strong>The Final Frontier and Maiden England World Tour (2010–2014)</strong> - Following announcements that the band had begun composition of new material and booked studio time in early 2010 with Kevin Shirley producing, The Final Frontier was announced on 4 March and featured three singles "The Final Frontier", "El Dorado" and "Coming Home", as well as epic, progressive opuses such as "Isle of Avalon", "The Talisman" and "When The Wild Wind Blows".</li>
+      <li><strong>The Book of Souls, Legacy of the Beast, and Senjutsu (2015–present)</strong> - Following confirmation from the group that 2010's The Final Frontier would not be their last album,[283] Bruce Dickinson revealed plans for a sixteenth studio record in July 2013, with a potential release date in 2015.</li>
+    </ul>
+    <i>Iron Maiden's lyrics cover such topics as history, literature, war, mythology, society and religion.<br> Many of their songs are based on history, classic literature and film.</i>
+    <br><br>
+    <i>--"The Greatest Hard Rock & Metal Hits Ever"</i>
+  </div>
+  <h5> If you have time, you should read more about this incredible band on her <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Iron_Maiden">Wikipedia entry</a>.
+  </h5>
+
+</div>
